@@ -55,7 +55,7 @@ def draw():
     # Fill window background
     win.fill(LT_ORG)
     # Insert title
-    text = TITLE_FONT.render('My Stolen Hangman Game', 1, WHITE)
+    text = TITLE_FONT.render('My Hangman Game', 1, WHITE)
     win.blit(text, (WIDTH/2 - text.get_width()/2, 20))
     # Draw word to guess
     display_word =''
